@@ -1,0 +1,59 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td th {
+    border:1px solid navy;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+    color: rgb(55, 153, 93);
+    font-weight: bold;
+}
+
+tr {
+    color: olive;
+}
+
+legend {
+    text-align: center;
+    color: palegreen;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    background-image:url(/images/wallpaper.jpg);
+    background-repeat: x, y;
+}
+
+h1 {
+    color:green;
+}
+
+body{
+    color:white
+}
+
+a {
+    color: greenyellow;
+}
+
+span{
+    color:gold;
+}
+
+
+
+
+
+
+
