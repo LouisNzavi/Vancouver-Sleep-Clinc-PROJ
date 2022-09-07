@@ -1,59 +1,77 @@
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 td th {
-    border:1px solid navy;
-    text-align: left;
-    padding: 8px;
+  border: 1px solid navy;
+  text-align: left;
+  padding: 8px;
 }
 
 th {
-    text-align: left;
-    color: rgb(55, 153, 93);
-    font-weight: bold;
+  text-align: left;
+  color: rgb(55, 153, 93);
+  font-weight: bold;
 }
 
 tr {
-    color: olive;
+  color: olive;
 }
 
 legend {
-    text-align: center;
-    color: palegreen;
+  text-align: center;
+  color: palegreen;
 }
 
-html{
-    box-sizing: border-box;
-    font-size: 20px;
+html {
+  box-sizing: border-box;
+  font-size: 20px;
 }
 
-body{
-    background-image:url(/images/wallpaper.jpg);
-    background-repeat: x, y;
+body {
+  background-image: url(/images/image1.jpg);
+  background-repeat: x, y;
+  opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: teal;
+  color: white;
 }
 
 h1 {
-    color:green;
+  color: green;
+  display: flex;
+  justify-content: center;
 }
 
-body{
-    color:white
+body {
+  color: white;
 }
 
 a {
-    color: greenyellow;
+  color: rgb(20, 21, 18);
 }
 
-span{
-    color:gold;
+span {
+  color: #000;
 }
 
-
-
-
-
-
-
+video {
+  width: 100%;
+  height: auto;
+}
