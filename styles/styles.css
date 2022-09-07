@@ -17,7 +17,7 @@ th {
 }
 
 tr {
-  color: olive;
+  color: #000;
 }
 
 legend {
@@ -32,8 +32,10 @@ html {
 
 body {
   background-image: url(/images/image1.jpg);
-  background-repeat: x, y;
-  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  opacity: 10;
 }
 
 ul {
